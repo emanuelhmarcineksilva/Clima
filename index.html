@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+    <div class="container">
+        <input class="input-city" type="text" placeholder="Digite o nome da cidade">
+        <button class="search" onclick="clickButton()">
+            <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="Buscar">
+        </button>
+
+        <div class="container-medium">
+            <h2 class="title-city">Tempo em São Paulo</h2>
+
+            <p class="temperature">21°C</p>
+
+            <div class="container-small">
+                <img class="img-climate" src="https://openweathermap.org/img/wn/04n.png" alt="icon-info-tempo">
+                <p class="climate">Nublado</p>
+            </div>
+
+            <p class="moisture">Humidade: 76%</p>
+        </div>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
